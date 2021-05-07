@@ -1,0 +1,54 @@
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    margin-top: 15px;
+    font-size: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid crimson;
+    font-weight: 500;
+}
+
+.bayern-logo{
+    width: 100px; 
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    flex-basis: 35%;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav ul {
+    width: 40%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    transition: 0.2s;
+    text-align: center;
+}
+
+nav ul li:hover {
+    border-left: 2px solid crimson;
+    color: crimson;
+    transform: translateX(5px)
+
+}
+
+
+/* @media only screen and (max-width: 1200px) {
+    nav {
+      font-size: 5px;
+    }
+  }  */
+
+
