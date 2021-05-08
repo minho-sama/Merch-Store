@@ -2,7 +2,18 @@
   box-sizing: border-box;
   margin: 0;
   background-color: white;
-  /* background-image: url('https://i.imgur.com/q0Xqz58.png') ; */
+
+}
+
+::-webkit-scrollbar {
+  background: white;
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: crimson;
+  border-radius: 10px;
+  transition: 0.2s;
 }
 
 body {

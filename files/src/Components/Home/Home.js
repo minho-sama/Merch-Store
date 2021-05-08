@@ -3,10 +3,9 @@ import {Link} from 'react-router-dom'
 import './Home.css'
 
 function Home() {
+    document.title = `Bayern Store | Home`
     return (
-        <div>
-            <h1 style = {{fontSize: '100px'}}>HomeHome </h1>
-
+        <div className = 'home-container'>
             <Link to = '/shop'><button>Visit the Fan Store</button></Link>
         </div>
     )

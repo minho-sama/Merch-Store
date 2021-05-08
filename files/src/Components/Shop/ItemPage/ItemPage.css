@@ -1,0 +1,13 @@
+.item-page{
+    margin: 10px;
+    border: 2px solid red;
+    display: flex;
+}
+
+.item-info-container{
+    /* display: block; */
+}
+
+.item-page img{
+    width: 400px;
+}

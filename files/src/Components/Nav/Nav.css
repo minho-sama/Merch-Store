@@ -6,7 +6,7 @@ nav{
     margin-top: 15px;
     font-size: 25px;
     padding-bottom: 15px;
-    border-bottom: 1px solid crimson;
+    border-bottom: 2px solid crimson;
     font-weight: 500;
 }
 
@@ -18,7 +18,8 @@ nav a{
     text-decoration: none;
     color: black;
     font-size: 18px;
-    flex-basis: 35%;
+    flex-basis: 41%;
+    text-align: center;
 }
 
 nav a:hover{

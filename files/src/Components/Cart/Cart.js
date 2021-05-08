@@ -2,10 +2,11 @@ import React from 'react'
 import'./Cart.css'
 
 function Cart() {
-    console.log('cart')
+    document.title = `Bayern Store | Cart`
+
     return (
         <div>
-            <p>CArt</p>
+            <p>Cart</p>
         </div>
     )
 }

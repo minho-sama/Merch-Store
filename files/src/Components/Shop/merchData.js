@@ -11,16 +11,16 @@ export const merchData = [
     },
     {
       id: 2,
-      img:
-        "https://i.imgur.com/DLPQvXD.jpg",
+      img: "https://i.imgur.com/DLPQvXD.jpg",
       name: "FC Bayern Goalkeeper Shirt 20/21",
       category: "clothes",
-      description: 'The zero has to stand - so of course it depends on the right goalkeeper.'
+      description: 'The zero has to stand - so of course it depends on the right goalkeeper.',
+      price: 79.95
     },
     {
       id: 3,
       img: "https://i.imgur.com/smSqNIN.jpg",
-      name: "FC BAYERN SHIRT AWAY AUTHENTIC 20/21",
+      name: "FC BAYERN SHIRT AWAY 20/21",
       category: 'clothes',
       description: 'FC Bayern is everywhere dahoam!',
       price: 79.95
@@ -30,7 +30,8 @@ export const merchData = [
       id: 4,
       img: "https://i.imgur.com/9gUWbal.jpg",
       name: "ADIDAS TEAM BAG",
-      category: 'accessories'
+      category: 'accessories',
+      price: 13.45,
     },
     {
         id: 5,
@@ -44,12 +45,13 @@ export const merchData = [
     {
       id: 6,
       img:
-        "https://i.imgur.com/I1bfofH.jpg",
-      name: "BALL UCL",
-      category: 'fanworld',
-      description: 'FC Bayern forever number one! This UCL ball by FC Bayern München impresses with its typical star-design.',
-      price: 24.95
+        "https://i.imgur.com/HP8PVGm.jpg",
+      name: "ADIDAS CAP",
+      category: 'accessories',
+      description: 'Go, Bayern, go!',
+      price: 9.95
     },
+
     {
       id: 7,
       img:
@@ -89,19 +91,19 @@ export const merchData = [
     {
       id: 11,
       img:
-        "https://i.imgur.com/HP8PVGm.jpg",
-      name: "ADIDAS CAP",
-      category: 'accessories',
-      description: 'Go, Bayern, go!',
-      price: 9.95
-    },
-    {
-      id: 12,
-      img:
         "https://i.imgur.com/fSFYFuo.jpg",
       name: "ZIP-HOODIE REKORDMEISTER",
       category: "clothes",
       description: 'The new Rekordmeister collection lives up to its name. This includes the sporty, chic zip hoodie in navy and red made from GOTS-certified organic cotton and recycled polyester.',
       price: 64.95
+    },
+    {
+      id: 12,
+      img:
+        "https://i.imgur.com/I1bfofH.jpg",
+      name: "BALL UCL",
+      category: 'fanworld',
+      description: 'FC Bayern forever number one! This UCL ball by FC Bayern München impresses with its typical star-design.',
+      price: 24.95
     },
   ];
