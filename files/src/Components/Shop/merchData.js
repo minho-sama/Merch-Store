@@ -31,6 +31,7 @@ export const merchData = [
       img: "https://i.imgur.com/9gUWbal.jpg",
       name: "ADIDAS TEAM BAG",
       category: 'accessories',
+      description: 'Join training in style wth the black adidas team bag from FC Bayern Munich! The sports bag is equipped with adjustable shoulder straps as well as a practical shoulder strap.',
       price: 13.45,
     },
     {
@@ -39,7 +40,7 @@ export const merchData = [
           "https://i.imgur.com/bTL7La8.jpg",
         name: "SWEATSHIRT RETRO",
         category: 'clothes',
-        description: 'Join training in style wth the black adidas team bag from FC Bayern Munich! The sports bag is equipped with adjustable shoulder straps as well as a practical shoulder strap.',
+        description: 'The sweatshirt for men from the retro collection plays fashionably with elements of the good old days. This suits our FC Bayern and its historic triumphs, because they are the basis for our equally successful future. ',
         price: 24.95,
       },
     {
