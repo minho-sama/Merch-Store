@@ -41,9 +41,13 @@ function Cart() {
                         <>
                         <hr className = "hr-line"></hr>
                         <div className = 'cart-card'>
+                        <Link to = {`/shop/${item.id}`} style={{ textDecoration: 'none' }}>
                             <img src = {item.img} alt = {item.name}/>
+                        </Link>
                             <div className = 'cartInfo-container'>
+                            <Link to = {`/shop/${item.id}`} style={{ textDecoration: 'none' }}>
                                 <h3>{item.name} </h3>
+                            </Link>
                                 <p>{item.price} €</p>
                                 <br></br>
                                 <div className = 'controllCart-container'>

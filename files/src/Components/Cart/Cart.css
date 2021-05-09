@@ -95,6 +95,10 @@
     margin-bottom: 7px;
 }
 
+.cartInfo-container h3:hover{
+    text-decoration: underline;
+}
+
 .cartInfo-container p{
     font-weight: 500;
 }
@@ -125,4 +129,12 @@
 
 .removeAll-btn{
     border:none;
+    cursor: pointer;
+    transition: 0.1s;
+    padding: 0px;
+}
+
+.removeAll-btn:hover{
+    color:crimson;
+    text-decoration: underline;
 }

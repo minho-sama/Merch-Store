@@ -40,6 +40,22 @@
     transform: translateY(7px);
 }
 
+.itempage-link-btns{
+    margin-top: 10%;
+}
+
+.itempage-link-btns button{
+    float:right;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 1px;
+}
+
+#go-back-btn{
+    background-color: black;
+    color:white;
+}
+
 @media only screen and (max-width: 800px) {
     .item-page {
         flex-direction: column;

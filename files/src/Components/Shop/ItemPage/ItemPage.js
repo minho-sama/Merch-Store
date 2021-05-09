@@ -1,7 +1,8 @@
 import React, {useContext, useState} from 'react';
 import {merchData} from '../merchData';
 import './ItemPage.css';
-import {CartContext} from '../../CartContext'
+import {CartContext} from '../../CartContext';
+import {Link} from 'react-router-dom';
 
 function ItemPage({match}) {
     const [item] = merchData.filter((merch) => {
@@ -17,7 +18,7 @@ function ItemPage({match}) {
         setTimeout(() => setOrderAdded(false), 2000);
         addToCart(item)
     }
-    
+     
     return (
         <div className = 'item-page'>
             <img src = {item.img} alt = {item.name}/>
@@ -31,6 +32,10 @@ function ItemPage({match}) {
                 {
                 orderAdded && <p id = 'addedOrder-msg'>{item.name} added to your cart!</p>
                 }
+                <div className = "itempage-link-btns">
+                    <Link to = '/shop'><button id = "go-back-btn">Go Back to Store</button></Link>
+                    {cart.length === 0 ||<Link to = '/cart'><button>Proceed to Checkout</button></Link>}
+                </div>
             </div>
         </div>
     )
