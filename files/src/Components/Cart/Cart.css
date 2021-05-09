@@ -1,0 +1,128 @@
+.cart-container{
+    position:relative;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#confirm-box{
+    background: crimson;
+    color:white;
+    font-weight: 450;
+    font-size: 20px;
+    width: fit-content;
+    padding: 7px;
+    border-radius: 3px;
+    position: absolute;
+    top: 20px;
+    left: 10%;
+}
+
+.cart-container h1{
+    text-align:center;
+    margin: 20px;
+    color:crimson;
+}
+
+.checkOut-container{
+    position:absolute;
+    top: 20px;
+    right: 5%;
+    font-size: 17px;
+}
+
+.checkOut-container p{
+    font-weight: 500;
+}
+
+.checkOut-container button{
+    font-size: 15px;
+    border:2px solid crimson;
+    border-radius: 3px;
+    padding: 3px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.checkOut-container button:hover{
+    background-color: crimson;
+    color:white;
+}
+
+#empty-msg h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10%;
+    color:rgb(13, 37, 104)
+}
+
+#empty-msg{
+    text-align: center;
+}
+
+#empty-msg button{
+    border:none;
+    color:rgb(13, 37, 104);
+    cursor: pointer;
+    font-size: 17px;
+}
+
+#empty-msg button:hover{
+    text-decoration: underline;
+}
+
+/*cart-card*/
+
+.hr-line{
+    border-top: 1px solid rgb(13, 37, 104);
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.cart-card{
+    /* border: 2px solid blue; */
+    display:flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.cart-card img{
+    width: 200px;
+}
+
+.cartInfo-container h3{
+    color:crimson;
+    margin-bottom: 7px;
+}
+
+.cartInfo-container p{
+    font-weight: 500;
+}
+
+.controllCart-container{
+    display:flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    border:2px solid crimson;
+    border-radius: 3px;
+    width: fit-content;
+    padding: 3px;
+}
+
+.controllCart-container button{
+    border:none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#minus-btn{
+    border-right: 2px solid crimson;
+}
+
+#plus-btn{
+    border-left: 2px solid crimson;
+}
+
+.removeAll-btn{
+    border:none;
+}

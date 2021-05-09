@@ -1,10 +1,13 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import {Link} from 'react-router-dom';
 import {merchData} from '../merchData';
 import './ItemCard.css'
+import {CartContext} from '../../CartContext'
 
-function ItemCard({itemData, addToCart}) {
+function ItemCard({itemData}) {
     const {id, name, img, price} = itemData
+
+    const [cart, setCart, addToCart, removeFromCart, removeAllFromCart] = useContext(CartContext)
 
     const filterItem = () => {
         const [item] = merchData.filter((merch) => {

@@ -1,16 +1,18 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import './Nav.css';
 import {Link} from 'react-router-dom';
 import {FiGithub} from 'react-icons/fi'
+import {CartContext} from '../CartContext'
 
 function Nav() {
+
+    const [cart] = useContext(CartContext);
 
     const navStyle = {
         color: 'black',
         listStyle: 'none',
         textDecoration: 'none',
     }
-
 
     return (
         <nav>
@@ -19,7 +21,7 @@ function Nav() {
             <ul>
                 <Link to = '/' style={navStyle}><li>Home</li></Link>
                 <Link to = '/shop' style={navStyle}><li>Shop</li></Link>
-                <Link to = '/cart' style={navStyle}><li>Your Cart</li></Link>
+                <Link to = '/cart' style={navStyle}><li>Your Cart {<span>{cart.length === 0 || cart.length}</span>}</li></Link>
             </ul>
 
         </nav>

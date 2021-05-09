@@ -1,9 +1,8 @@
-import React, {useState} from 'react'
-import './Shop.css'
+import React, {useState} from 'react';
+import './Shop.css';
 import {merchData} from './merchData';
 import ItemCard from './ItemCard/ItemCard';
-import {Link} from 'react-router-dom';
-import {BsSearch} from 'react-icons/bs'
+import {BsSearch} from 'react-icons/bs';
 
 function Shop() {
 
@@ -17,14 +16,6 @@ function Shop() {
 
     //searchbar
     const filteredMerch = merchArray.filter(merch => merch.name.toLowerCase().includes(searchValue.toLowerCase()));
-
-    const [cart, setCart] = useState([]); //ezt a state vart léne eljuttatni Cartba és navbarba useContext-tel
-
-    const addToCart = (object) => {
-        const newCart = [...cart, object];
-        setCart(newCart)
-    }
-    console.log(cart)
 
     return (
         <div>
@@ -47,7 +38,9 @@ function Shop() {
             {
                 filteredMerch.map((item) => {
                         return (
-                            <ItemCard key = {item.id} itemData = {item} addToCart = {addToCart}/>
+                            <>
+                            <ItemCard key = {item.id} itemData = {item}/> 
+                            </>
                         ) 
                 })
             }
