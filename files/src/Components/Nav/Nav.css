@@ -49,11 +49,11 @@ nav span{
     color:crimson;
 }
 
-
-/* @media only screen and (max-width: 1200px) {
-    nav {
-      font-size: 5px;
+ 
+@media only screen and (max-width: 900px) {
+    nav ul {
+      display:block;
     }
-  }  */
+  } 
 
 

@@ -18,7 +18,7 @@ function Shop() {
     const filteredMerch = merchArray.filter(merch => merch.name.toLowerCase().includes(searchValue.toLowerCase()));
 
     return (
-        <div>
+        <div id = "main-shop-div">
             <div className = 'filter-container'>
 
                 <div className = 'search-container'>

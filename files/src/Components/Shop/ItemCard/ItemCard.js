@@ -7,7 +7,7 @@ import {CartContext} from '../../CartContext'
 function ItemCard({itemData}) {
     const {id, name, img, price} = itemData
 
-    const [cart, setCart, addToCart, removeFromCart, removeAllFromCart] = useContext(CartContext)
+    const [cart, setCart, addToCart, removeFromCart, removeAllFromCart] = useContext(CartContext);
 
     const filterItem = () => {
         const [item] = merchData.filter((merch) => {

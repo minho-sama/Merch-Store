@@ -9,7 +9,7 @@
     padding-left: 8%;
 
     /*solid*/
-    text-shadow: 5px 5px rgb(31, 79, 170);
+    text-shadow: 6px 6px rgb(31, 79, 170);
     
     /*színes*/
     /* margin: 10px;
@@ -45,6 +45,14 @@
     top: 12px;
 }
 
-/* @media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1100px) {
+    .home-container button{
+        right: 10%;
+    }
+  } 
 
-  }  */
+  @media only screen and (max-width: 800px) {
+    .home-container button{
+        right: 25%;
+    }
+  } 

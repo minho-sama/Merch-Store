@@ -60,3 +60,12 @@
     transform: translateY(5px);
     color:crimson;
 }
+
+@media only screen and (max-width: 800px) {
+    .filter-container{
+        margin: 6px 30%;
+        margin-right: 0px;
+        font-size: 13px;
+        display: block;
+    }
+  } 
