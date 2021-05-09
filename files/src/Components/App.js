@@ -17,7 +17,7 @@ function App() {
     <CartProvider>
       <Nav/>
       <Switch>
-        <Route path = "/" exact component = {Home}/>
+        <Route path = "/Merch-Store" exact component = {Home}/>
         <Route path = "/shop" exact component = {Shop} />
 
 
